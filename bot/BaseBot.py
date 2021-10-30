@@ -29,7 +29,7 @@ lout.writeFile('BaseBotLogs.txt', '\nBaseBot Initialized Successfully!', True)
 # Things to run when the bot successfully connects to Discord
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Activity(type=1, name='Never gonna give you up | !help', url='https://youtu.be/dQw4w9WgXcQ', platform='YouTube'))
+    await bot.change_presence(activity=discord.Activity(type=2, name='!info', url='', platform=''))
     lout.log(config, botStartTime, None, None, True)
 
 # Command template

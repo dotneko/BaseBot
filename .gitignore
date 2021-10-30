@@ -1,0 +1,4 @@
+bot/config.yml
+bot/__*
+venv
+BaseBotLogs.txt
